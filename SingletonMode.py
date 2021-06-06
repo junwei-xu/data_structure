@@ -3,6 +3,8 @@
 # @author junwei
 # @date 2021/6/4 10:16
 # description
+# __init__是当实例对象创建完成后被调用的, 然后设置对象属性的初始值
+# __new__是在实例创建之前被调用的, 任务就是创建实例然后返回该实例, 是个静态方法
 class SingletonMode(object):
     __INSTANCE = None
     __FIRST = True

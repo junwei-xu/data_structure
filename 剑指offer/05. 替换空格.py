@@ -2,7 +2,8 @@
 # _*_coding=utf-8 _*_
 # @author junwei
 # @date 2021/6/6 9:51
-# description 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
+# description
+# 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
 class Solution:
     # 解法一：偷懒解法
     def tl(self, s: str) -> str:

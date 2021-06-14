@@ -2,7 +2,8 @@
 # _*_coding=utf-8 _*_
 # @author junwei
 # @date 2021/6/6 20:05
-# description 写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项（即 F(N)）。斐波那契数列的定义如下：
+# description
+# 写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项（即 F(N)）。斐波那契数列的定义如下：
 #
 # F(0) = 0,   F(1) = 1
 # F(N) = F(N - 1) + F(N - 2), 其中 N > 1.

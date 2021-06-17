@@ -11,6 +11,9 @@
 # 输出: 5->4->3->2->1->NULL
 
 # Definition for singly-linked list.
+from functools import reduce
+
+
 class ListNode:
     def __init__(self, x):
         self.val = x

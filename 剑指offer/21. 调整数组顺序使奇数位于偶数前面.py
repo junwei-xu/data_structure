@@ -37,3 +37,13 @@ class Solution:
         return nums
 
     # 快慢双指针 龟兔赛跑
+    def km_exchange(self, nums: list[int]) -> list[int]:
+        left, right = 0, 0
+        while right < len(nums):
+            # 如果快指针指向奇数，则交换到前面，且慢指针前移
+            if nums[right] % 2 == 1:
+                nums[left], nums[right] = nums[right], nums[left]
+                left += 1
+            # 快指针始终前移
+            right += 1
+        return nums
